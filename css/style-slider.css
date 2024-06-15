@@ -1,0 +1,90 @@
+.slider{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.slider-images{
+    position: relative;
+    display: flex;
+    aspect-ratio: 14/6;
+}
+.title-page{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    z-index: 3;
+}
+.title-page span{
+    display: block;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 3px 10px rgb(255, 255, 255);
+    transform: translateY(30px);
+    opacity: 0;
+}
+span.tit-banner{
+    font-size: 50px;
+    padding-bottom: 10px;
+    text-shadow: 0px 0px 8px white;
+    transition: 0.6s;
+}
+span.des-banner{
+    font-size: 17px;
+    transition: 1s;
+}
+.slider:hover .title-page span{
+    opacity: 1;
+    transform: translateY(0);
+}
+.slider-images img{
+    flex: 1 0 100%;
+    object-fit: cover;
+}
+.slider-images input{
+    display: none;
+}
+.slider-nav{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slider-nav label{
+    border: 2px solid rgb(0, 0, 0);
+    display: block;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* -------------------------- RESPONSIVE -----------------------  */
+@media screen and (max-width: 900px){
+    .title-page span{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    span.tit-banner{
+        font-size: 40px;
+    }
+    span.des-banner{
+        display: none;
+    }
+}
+@media screen and (max-width: 667px){
+    section .slider-nav label{
+        padding: 3px;
+        border: 1px solid green;
+    }
+}
+@media screen and (max-width: 575px){
+    span.tit-banner{
+        font-size: 30px;
+    }
+}
+/* -------------------------- RESPONSIVE -----------------------  */

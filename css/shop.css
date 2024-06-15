@@ -1,0 +1,95 @@
+.shop-filter-products{
+    padding: 10px;
+    border: 1px solid #e4e6eb;
+}
+.shop-filter-products form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+.shop-filter-products button, select,input{
+    border-radius: 2px;
+    border: 1px solid #e4e6eb;
+    font-weight: bold;
+}
+.status-product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.status-product button{
+    padding: 5px 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.status-product button:hover{
+    background-color: gray;
+    color: white;
+}
+.select-product-to-infor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+.select-product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    border: 1px solid #e4e6eb;
+    padding: 3px;
+}
+.select-product select{
+    padding: 5px 20px;
+    height: 100%;
+}
+.select-product button{
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+}
+.search-product{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+}
+.search-product input{
+    width: 100%;
+    padding: 0px 10px;
+    height: 100%;
+}
+.search-product button{
+    background-color: green;
+    color: white;
+}
+/* ---------- FRAME RESPONSIVE --------- */
+@media screen and (max-width: 1080px){
+    .shop-filter-products form{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .status-product{
+        grid-column: 1/2;
+    }
+}
+@media screen and (max-width: 900px){}
+@media screen and (max-width: 768px){}
+@media screen and (max-width: 667px){}
+@media screen and (max-width: 575px){
+    .status-product{
+        grid-template-columns: repeat(1,1fr);
+        gap: 2px;
+    }
+    .status-product button{
+        padding: 10px;
+    }
+    .select-product-to-infor{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .search-product input{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 480px){}
+@media screen and (max-width: 360px){}
+/* ---------- FRAME RESPONSIVE --------- */
