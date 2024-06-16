@@ -1,0 +1,22 @@
+#user-comment{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+.user-comment{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.user-comment div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.infor-date-coment{
+    font-size: 12px;
+    color: gray;
+}
+.infor-content-comment{
+    padding: 10px 0px;
+}
