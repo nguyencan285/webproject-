@@ -22,10 +22,15 @@ Full function webbase for user to buy clothes
 </div>
 
 ## INSTALLATION
-<div style="text-align:justify">
-*Install XAMPP application
-*Download project zip file and unzip, then copy project folder to htdocs folder in XAMPP. Example: C:/xammp/htdocs/projectfolder
-*Run Mysql on XAMPP
-*Create new database in phpMyAdmin with name is 'newstyle' and run script 'newstyle.sql' in config folder
-*Run Apache on XAMPP and enjoy.
-</div>
+<div style="text-align:justify">*Install XAMPP application</div>
+<div style="text-align:justify">*Download project zip file and unzip, then copy project folder to htdocs folder in XAMPP. Example: C:/xammp/htdocs/projectfolder</div>
+<div style="text-align:justify">*Run Mysql on XAMPP</div>
+<div style="text-align:justify">*Create new database in phpMyAdmin with name is 'newstyle' and run script 'newstyle.sql' in config folder</div>
+<div style="text-align:justify">*Run Apache on XAMPP and enjoy.</div>
+
+
+
+
+
+
+
