@@ -5,7 +5,10 @@
 <div style="text-align:justify">
   We offer an online shop system in response to the customer company's desire to streamline the ordering and purchasing process through the use of web platforms. Our method makes it simpler, quicker, and more convenient for customers to select and purchase shopping product 
   </div>
+  
+## Demo
 
+Check out the [online demo](https://abcwebproject.000webhostapp.com/pages/home.php).
 
 ## TEAM MEMBERS
 
