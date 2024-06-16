@@ -1,0 +1,119 @@
+.information-product-now{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px 0px;
+}
+.infor-product-now{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+span.infor-name-product{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+span.description{
+    padding: 20px 0px;
+    color: #8c99a3;
+}
+.evaluate{
+    color: #ffb136;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+.customer-reviews{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.infor-price{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0px 20px 0px;
+}
+.select-actions{
+    display: grid;
+    grid-template-columns: 25% calc(50% - 20px) 25%;
+    gap: 10px;
+    padding: 20px 0px;
+}
+.up-quantity{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid #8c99a3;
+}
+.up-quantity input{
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+.up-quantity input:focus{
+    outline: none;
+    appearance: none;
+}
+.select-actions button{
+    font-size: 18px;
+    padding: 20px 0px;
+    background-color: #363636;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.up-quantity button{
+    background-color: white;
+    color: #363636;
+}
+.infor-category{
+    margin-top: 40px;
+    padding: 20px 0px;
+    border-top: 1px solid #8c99a3;
+    color: #8c99a3;
+}
+button.add-to-love{
+    background-color: white;
+    color: #8c99a3;
+    border: 1px solid #8c99a3;
+}
+button.add-to-love:hover{
+    color: black;
+    border-color: black;
+    transition: 0.8s ease-out;
+}
+.image-product-now img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.next-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.next-image img{
+    width: 100%;
+    border: 1px solid #8c99a3;
+    cursor: pointer;
+}
+
+/* ---------- FRAME RESPONSIVE --------- */
+@media screen and (max-width: 1080px){}
+@media screen and (max-width: 843px){
+    main .select-actions{
+        grid-template-columns: auto;
+    }
+}
+@media screen and (max-width: 768px){}
+@media screen and (max-width: 667px){}
+@media screen and (max-width: 575px){
+    .information-product-now{
+        grid-template-columns: auto;
+    }
+    .next-image{
+        order: -1;
+    }
+}
+@media screen and (max-width: 480px){}
+@media screen and (max-width: 360px){}
+/* ---------- FRAME RESPONSIVE --------- */
