@@ -1,7 +1,8 @@
 # WebApplication_E-commercewebsite
 <h3 align="center">WELCOME TO OUR WEB PROJECT </h3>
-
-
+## INTRODUCTION
+<div style="text-align:justify">
+  We offer an online shop system in response to the customer company's desire to streamline the ordering and purchasing process through the use of web platforms. Our method makes it simpler, quicker, and more convenient for customers to select and purchase shopping product </div>
 
 ## TEAM MEMBERS
 
