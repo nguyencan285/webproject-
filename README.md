@@ -15,9 +15,9 @@ Check out the [online demo](https://abcwebproject.000webhostapp.com/pages/home.p
 
 | Order |                   Name                   |     ID      |              Task                               | Contribution |
 | :---: |:----------------------------------------:|:-----------:|:----------------------------------------------: |:------------:|
-|   1   |          Nguyễn Đăng Bảo                   | ITITIU20326 | Design web view                               |     33.3%    |
-|   2   |          Huỳnh Ngọc Hoài Ân                | ITITIU20338 | Find sample data and design web view          |     33.3%    |
-|   3   |          Nguyễn Cần                        | ITITIU20348 | Design database,handle basic logic function   |     33.3%    |
+|   1   |          Nguyễn Đăng Bảo                   | ITITIU20164 | Design web view                               |     33.3%    |
+|   2   |          Huỳnh Ngọc Hoài Ân                | ITITIU20152 | Find sample data and design web view          |     33.3%    |
+|   3   |          Nguyễn Cần                        | ITITIU20171 | Design database,handle basic logic function   |     33.3%    |
 
 ## THE PRODUCT'S INFORMATION
 <div style="text-align:justify">
